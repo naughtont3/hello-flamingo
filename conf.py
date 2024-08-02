@@ -76,7 +76,8 @@ html_css_files = [
 html_additional_pages = { }
 
 # TJN: For now disable the "View page source" link (default is True)
-html_show_sourcelink = False
+#html_show_sourcelink = False
+html_show_sourcelink = True
 
 # This prolog is included in every file.  Put common stuff here.
 #.. |year| replace:: {year}
