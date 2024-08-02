@@ -9,10 +9,9 @@
 
 project = 'hello-flamingo'
 author = 'flamingo Team'
-#html_show_copyright = False
-#html_show_sphinx = False
+copyright = '2022-, flamingo Team'
 html_show_copyright = True
-html_show_sphinx = True
+html_show_sphinx = False
 html_last_updated_fmt = '%b %d, %Y'
 
 ###
@@ -70,13 +69,13 @@ html_css_files = [
     'custom.css',
 ]
 
-html_context = {
-   "display_github": True,          #Integrate GitHub
-   "github_user": "naughtont3",     #Username
-   "github_repo": "hello-flamingo", #Repo name
-   "github_version": "main",        #Branch name
-   "conf_py_path": "/",             #Path to your docs in the repo
-}
+# html_context = {
+#    "display_github": True,          #Integrate GitHub
+#    "github_user": "naughtont3",     #Username
+#    "github_repo": "hello-flamingo", #Repo name
+#    "github_version": "main",        #Branch name
+#    "conf_py_path": "/",             #Path to your docs in the repo
+# }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
