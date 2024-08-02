@@ -1,6 +1,13 @@
 # hello-flamingo
 Testing repository for sphynx based documentation.
 
+ReadTheDocs Note
+----------------
+ - Created account at ReadTheDocs.org
+ - Imported this public Github project
+ - Added `.readthedocs.yaml` to Github project
+ - RTD does the rest
+ - URL: https://hello-flamingo.readthedocs.io/en/latest/
 
 Brief
 -----
