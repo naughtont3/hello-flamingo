@@ -5,6 +5,8 @@ ReadTheDocs Note
 ----------------
  - Created account at ReadTheDocs.org
  - Imported this public Github project
+    - https://readthedocs.org/dashboard/
+    - https://readthedocs.org/projects/hello-flamingo/
  - Added `.readthedocs.yaml` to Github project
  - RTD does the rest
  - URL: https://hello-flamingo.readthedocs.io/en/latest/
