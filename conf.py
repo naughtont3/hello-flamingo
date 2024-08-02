@@ -9,8 +9,10 @@
 
 project = 'hello-flamingo'
 author = 'flamingo Team'
-html_show_copyright = False
-html_show_sphinx = False
+#html_show_copyright = False
+#html_show_sphinx = False
+html_show_copyright = True
+html_show_sphinx = True
 html_last_updated_fmt = '%b %d, %Y'
 
 ###
