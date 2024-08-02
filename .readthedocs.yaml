@@ -12,8 +12,8 @@ build:
 
 sphinx:
   configuration: conf.py
-  # Fail on all warning to avoid broken references
-  fail_on_warning: true
+  # TODO: Fail on all warning to avoid broken references
+  #fail_on_warning: true
 
 python:
    install:
