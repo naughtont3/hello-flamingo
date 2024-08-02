@@ -68,6 +68,14 @@ html_css_files = [
     'custom.css',
 ]
 
+html_context = {
+   "display_github": True,          #Integrate GitHub
+   "github_user": "naughtont3",     #Username
+   "github_repo": "hello-flamingo", #Repo name
+   "github_version": "main",        #Branch name
+   "conf_py_path": "/",             #Path to your docs in the repo
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -76,8 +84,7 @@ html_css_files = [
 html_additional_pages = { }
 
 # TJN: For now disable the "View page source" link (default is True)
-#html_show_sourcelink = False
-html_show_sourcelink = True
+html_show_sourcelink = False
 
 # This prolog is included in every file.  Put common stuff here.
 #.. |year| replace:: {year}
