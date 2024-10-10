@@ -1,6 +1,7 @@
 # hello-flamingo
 Testing repository for sphynx based documentation.
 
+
 ReadTheDocs Note
 ----------------
  - Created account at ReadTheDocs.org
@@ -11,12 +12,14 @@ ReadTheDocs Note
  - RTD does the rest
  - URL: https://hello-flamingo.readthedocs.io/en/latest/
 
+
 Brief
 -----
 Source files for the hello-flamingo documentation
 
 The content is written in ReStructured Text (RST) format and
 uses the Sphinx package to format the document.
+
 
 Building Docs Manually
 ----------------------
@@ -44,5 +47,4 @@ Building Docs Manually
    ```
    shell$ open _build/index.html
    ```
-
 
