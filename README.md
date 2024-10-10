@@ -45,4 +45,3 @@ Building Docs Manually
    shell$ open _build/index.html
    ```
 
-
