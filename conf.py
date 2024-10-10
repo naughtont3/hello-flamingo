@@ -27,7 +27,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #      and having to read/parse it here. Good enough for now!
 ###
 version = 'main'   # 'main' (production) or 'next' (devel)
-release = 'v0.1'   # 'v0.9', 'v1.0', etc.
+release = 'v0.2'   # 'v0.9', 'v1.0', etc.
 
 
 # -- General configuration ---------------------------------------------------
