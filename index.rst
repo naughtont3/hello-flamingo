@@ -9,11 +9,11 @@ This is a test repository.  The content in this repo is strictly for
 testing purposes.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Overview
 
    introduction
-   team
+   about
 
    terms
    bibliography
