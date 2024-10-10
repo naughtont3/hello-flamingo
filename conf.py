@@ -7,9 +7,13 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+from datetime import datetime
+current_year = datetime.now().year
+
 project = 'hello-flamingo'
 author = 'flamingo Team'
-copyright = '2022-, flamingo Team'
+copyright = f'2023-{current_year} {author}'
+
 html_show_copyright = True
 html_show_sphinx = False
 html_last_updated_fmt = '%b %d, %Y'
@@ -44,6 +48,7 @@ templates_path = ['_templates']
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 've3', 'venv', '.venv',
                     'README.md',
+                    'LICENSE',
                     'Makefile']
 
 # Allow number-based figure references
@@ -69,13 +74,14 @@ html_css_files = [
     'custom.css',
 ]
 
-# html_context = {
-#    "display_github": True,          #Integrate GitHub
-#    "github_user": "naughtont3",     #Username
-#    "github_repo": "hello-flamingo", #Repo name
-#    "github_version": "main",        #Branch name
-#    "conf_py_path": "/",             #Path to your docs in the repo
-# }
+html_context = {
+   "display_github": True,          # Integrate GitHub
+   "github_user": "naughtont3",     # Username
+   "github_repo": "hello-flamingo", # Repo name
+   "github_version": version,       # Version (often branch name)
+   "conf_py_path": "/",             # Path in checkout to the docs root
+   "author": author,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

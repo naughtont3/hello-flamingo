@@ -41,6 +41,9 @@ Acronym and Terminology Definitions
    ORNL
       Oak Ridge National Laboratory
 
+   OSCAR
+      Open Source Cluster Application Resources
+
    RST
       ReStructured Text (RST) is an easy-to-read, what-you-see-is-what-you-get
       plain text markup syntax and parser system. It is useful for in-line

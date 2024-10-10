@@ -1,11 +1,16 @@
-.. _flamingo:team:
+.. _flamingo:about:
 
-Team and Publications
-#####################
+About
+#####
 
 The project could have several members and we would list them here.
 
-- :term:`Oak Ridge National Laboratory<ORNL>` team:
+.. _flamingo:about:team:
+
+Team
+----
+
+- Project team:
 
   - `Thomas Naughton <https://www.ornl.gov/staff-profile/thomas-j-naughton-iii>`_
 
@@ -13,9 +18,10 @@ The project could have several members and we would list them here.
 
     - Solomon Grundy
 
-.. _flamingo::team:publications:
+.. _flamingo::about:publications:
 
-.. rubric:: Publications
+Publications
+------------
 
 .. bibliography:: publications.bib
    :all:
