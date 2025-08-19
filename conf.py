@@ -10,9 +10,9 @@
 from datetime import datetime
 current_year = datetime.now().year
 
-project = 'hello-flamingo'
-author = 'flamingo Team'
-copyright = f'2023-{current_year} {author}'
+project = 'qschedsim'
+author = 'qschedsim Team'
+copyright = f'2025-{current_year} {author}'
 
 html_show_copyright = True
 html_show_sphinx = False
@@ -26,8 +26,8 @@ html_last_updated_fmt = '%b %d, %Y'
 #      This seemed easier than putting the info in a seperate file
 #      and having to read/parse it here. Good enough for now!
 ###
-version = 'main'   # 'main' (production) or 'next' (devel)
-release = 'v0.2'   # 'v0.9', 'v1.0', etc.
+version = 'qschedsim-test'   # 'main' (production) or 'next' (devel)
+release = 'v0.1'   # 'v0.9', 'v1.0', etc.
 
 
 # -- General configuration ---------------------------------------------------
@@ -37,11 +37,7 @@ release = 'v0.2'   # 'v0.9', 'v1.0', etc.
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 import sphinx_rtd_theme
-extensions = ['recommonmark', "sphinx_rtd_theme", 'sphinxcontrib.bibtex',
-              'sphinx.ext.todo','sphinxcontrib.plantuml','sphinxcontrib.mermaid']
-bibtex_bibfiles = ['bibliography.bib', 'publications.bib']
-bibtex_default_style = 'unsrt'
-bibtex_reference_style = 'label'
+extensions = ['recommonmark', "sphinx_rtd_theme", 'sphinxcontrib.mermaid']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -54,10 +50,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 've3', 'venv', '.venv',
 # Allow number-based figure references
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-numfig
 numfig = True
-
-# Enable the todo directive
-# https://www.sphinx-doc.org/en/master/usage/extensions/todo.html
-todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
